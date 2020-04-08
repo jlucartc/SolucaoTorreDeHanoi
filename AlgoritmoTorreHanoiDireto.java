@@ -19,16 +19,16 @@ class AlgoritmoTorreHanoiDireto{
 
 
 	// Calcula os passos aplicando a formula direta, recebendo a quantidade N de peças.
-	public static int calcularPassos(int quantidadePecas){
+	public static long calcularPassos(long quantidadePecas){
 
-		return Math.pow(2,quantidadePecas)-1;
+		return ((long)Math.pow(2,quantidadePecas))-1;
 
 	}
 
 	public static void main(String[] args){
 
 		// Variável que recebe o número de peças
-		int quantidadePecas;
+		long quantidadePecas;
 
 		// Recebe a quantidade de peças e guarda na variável 'quantidadePecas'
 		System.out.println("Digite a quantidade de peças: ");
@@ -36,7 +36,7 @@ class AlgoritmoTorreHanoiDireto{
 	    quantidadePecas = in.nextInt();
 
 	    // Imprime o resultado no console
-		System.out.println("Número mínimo de passo para "+Integer.toString(quantidadePecas)+" peças: "+Integer.toString(calcularPassos(quantidadePecas)));
+		System.out.println("Número mínimo de passo para "+Long.toString(quantidadePecas)+" peças: "+Long.toString(calcularPassos(quantidadePecas)));
 		
 
 
