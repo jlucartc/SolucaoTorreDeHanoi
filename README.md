@@ -60,17 +60,15 @@ Para provar que a expressão é ótima precisamos primeiro provar que o modelo �
 
 Sabemos que:
 
-Ao omitir apenas o passo 1, fica impossível mover a N-ésima peça, tornando impossível empilhar as N peças na pilha final.
-
-Ao omitir apenas o passo 2, a pilha final não terá todas as N peças empilhadas.
-
-Ao omitir apenas o passo 3, a pilha final ainda estará sem as N-1 peças restantes, implicando na não resolução do problema.
+- Ao omitir apenas o passo 1, fica impossível mover a N-ésima peça, tornando impossível empilhar as N peças na pilha final.
+- Ao omitir apenas o passo 2, a pilha final não terá todas as N peças empilhadas.
+- Ao omitir apenas o passo 3, a pilha final ainda estará sem as N-1 peças restantes, implicando na não resolução do problema.
 
 O mesmo ocorre caso sejam omitidas dois passos quaisquer:
 
-Se omitirmos 1 e 2, a N-ésima peça não estará na pilha final.
-Se omitirmos 1 e 3, 2 torna-se impossível e as N peças não poderão estar na pilha final.
-Se omitirmos 2 e 3, pelo menos uma peça ainda estará fora da pilha final.
+- Se omitirmos 1 e 2, a N-ésima peça não estará na pilha final.
+- Se omitirmos 1 e 3, 2 torna-se impossível e as N peças não poderão estar na pilha final.
+- Se omitirmos 2 e 3, pelo menos uma peça ainda estará fora da pilha final.
 
 Obviamente, se todos os passos forem omitidos, então o problema segue inalterado.
 
