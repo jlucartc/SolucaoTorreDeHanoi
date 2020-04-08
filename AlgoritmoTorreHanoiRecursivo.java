@@ -71,9 +71,9 @@ class AlgoritmoTorreHanoiRecursivo {
 		// Recebe a quantidade de peças e guarda na variável 'quantidadePecas'
 		System.out.println("Digite a quantidade de peças: ");
 		Scanner in = new Scanner(System.in);
-        quantidadePecas = in.nextInt();
+        	quantidadePecas = in.nextInt();
 
-        // Imprime o resultado no console
+        	// Imprime o resultado no console
 		System.out.println("Número mínimo de passos para "+Long.toString(quantidadePecas)+" peças: "+Long.toString(calcularPassos(quantidadePecas)));
 		
 
