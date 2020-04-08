@@ -1,4 +1,4 @@
-# Solução Ótima da torre de Hanoi
+# Solução do problema das torres de Hanoi
 
 Autor: João Luca Ripardo Teixeira Costa
 
