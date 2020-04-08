@@ -93,10 +93,8 @@ Logo, provamos que o problema só se resolve se os 3 passos forem executados em 
 
 Também podemos observar que os 3 passos são suficientes para resolver o problema para qualquer quantidade de peças, pois:
 
-Ao executar o passo I, temos N-1 peças na pilha auxiliar e a N-ésima peça na pilha original.
-
-Ao executar o passo II, temos a N-ésima peça na pilha final.
-
-Ao executar o passo 3, estamos apenas empillhando as N-1 peças  em cima da N-ésima peça, resultando em uma pilha com N peças empilhadas corretamente na pilha final, que é a solução procurada.
+- Ao executar o passo 1, temos N-1 peças na pilha auxiliar e a N-ésima peça na pilha original.
+- Ao executar o passo 2, temos a N-ésima peça na pilha final.
+- Ao executar o passo 3, estamos apenas empillhando as N-1 peças  em cima da N-ésima peça, resultando em uma pilha com N peças empilhadas corretamente na pilha final, que é a solução procurada.
 
 Logo, como sabemos que os 3 passos são condições necessárias e suficientes, sabemos que qualquer movimentação adicional de peças é um custo desnecessário. Portanto, provamos que os 3 passos são a maneira menos custosa de resolver o problema das torres de Hanoi.  ▄
