@@ -5,9 +5,9 @@
 	Uma vez que se sabe que o numero de operações para mover
 	uma pilha de N peças é dado pela expressão exponencial:
 
-	Passos(N) = 2^(N) - 1,
+	C(N) = 2^(N) - 1,
 
-	Então basta aplicar a formula diretamente, sem precisar utilizar recursão.
+	Então basta aplicar a fórmula diretamente, sem precisar utilizar recursão.
 
 */
 
@@ -33,11 +33,11 @@ class AlgoritmoTorreHanoiDireto{
 		// Recebe a quantidade de peças e guarda na variável 'quantidadePecas'
 		System.out.println("Digite a quantidade de peças: ");
 		Scanner in = new Scanner(System.in);
-	    quantidadePecas = in.nextInt();
+		quantidadePecas = in.nextInt();
 
-	    // Imprime o resultado no console
+		// Imprime o resultado no console
 		System.out.println("Número mínimo de passos para "+Long.toString(quantidadePecas)+" peças: "+Long.toString(calcularPassos(quantidadePecas)));
-		
+
 
 
 	}
