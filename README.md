@@ -49,9 +49,8 @@ Expandindo a expressão do custo na forma de uma série, temos o seguinte:
 	Logo, a expressão que define o número de operações para uma torre com N peças é:
 
 	C(N) = (1 - 2^(N))/(1 - 2)  = 2^(N) – 1 ▄
-
-
-##Provando que a expressão do custo é ótima
+	
+## Provando que a expressão do custo é ótima
 
 Para provar que a expressão é ótima precisamos primeiro provar que o modelo é ótimo. O modelo proposto diz que qualquer problema pode ser resolvido com 3 operações, que são:
 
