@@ -2,8 +2,8 @@
 	Autor: João Luca Ripardo Teixeira Costa
 	github: github.com/jlucartc
 
-	Uma vez que se sabe que a o numero de operações para mover
-	uma pilha de N peças é dada pela expressão exponencial:
+	Uma vez que se sabe que o numero de operações para mover
+	uma pilha de N peças é dado pela expressão exponencial:
 
 	Passos(N) = 2^(N) - 1,
 
@@ -36,7 +36,7 @@ class AlgoritmoTorreHanoiDireto{
 	    quantidadePecas = in.nextInt();
 
 	    // Imprime o resultado no console
-		System.out.println("Número mínimo de passo para "+Long.toString(quantidadePecas)+" peças: "+Long.toString(calcularPassos(quantidadePecas)));
+		System.out.println("Número mínimo de passos para "+Long.toString(quantidadePecas)+" peças: "+Long.toString(calcularPassos(quantidadePecas)));
 		
 
 
