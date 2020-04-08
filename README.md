@@ -63,10 +63,17 @@ Expandindo a expressão do custo na forma de uma série, temos o seguinte:
 Para provar que a expressão é ótima precisamos primeiro provar que o modelo é ótimo. O modelo proposto diz que qualquer problema pode ser resolvido com 3 operações, que são:
 
 1. Desempilhar as N-1 primeiras peças na pilha auxiliar
-2. Mover a peça N para a pilha final
+2. Mover a peça N da pilha inicial para a pilha final
 3. Empilhar as N-1 primeiras peças na pilha final
 
-Sabemos que:
+Note que é impossível mover as N peças da pilha inicial até a pilha final sem obedecer os 3 passos em sequência, pois a ordem dos passos influencia no estado final da pilha. Analizando os passos, podemos concluir que:
+
+- O passo 1 não pode ocorrer depois do passo 2, pois a N-ésima peça só pode sair quando as de cima saírem.
+- O passo 1 não pode ocorrer depois do passo 3, pois a essa altura as N-1 peças já teriam sido desempilhadas.
+- O passo 1 não pode ser substituido pelo passo 3 e seguido por pelo passo 2, pois isso implicaria em por a N-ésima peça em cima das outras.
+- O passo 2 não pode ocorrer depois do passo 3, pois a N-ésima peça não pode ficar acima das outras.
+
+Além disso, não é possível omitir nenhum dos 3 passos sem comprometer o resultado final:
 
 - Ao omitir apenas o passo 1, fica impossível mover a N-ésima peça, tornando impossível empilhar as N peças na pilha final.
 - Ao omitir apenas o passo 2, a pilha final não terá todas as N peças empilhadas.
@@ -84,7 +91,7 @@ Qualquer outra solução precisa, portanto, utilizar ao menos esses 3 passos par
 
 Logo, provamos que o problema só se resolve se os 3 passos forem executados em sequência(condição necessária). ▄
 
-Também podemos observar que os 3 passos são suficiente para resolver o problema para qualquer quantidade de peças, pois:
+Também podemos observar que os 3 passos são suficientes para resolver o problema para qualquer quantidade de peças, pois:
 
 Ao executar o passo I, temos N-1 peças na pilha auxiliar e a N-ésima peça na pilha original.
 
