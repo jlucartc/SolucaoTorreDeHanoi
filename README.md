@@ -16,7 +16,7 @@ necessários para resolver o problema. Esses passos são:
 
 Dado esse algoritmo inicial, é possivel concluir que:
 
-1. Os passos I e III possuem o mesmo número de movimentos
+1. Os passos 1 e 3 possuem o mesmo número de movimentos
 
 2. Para resolver um problema com N peças, é preciso primeiro resolver um problema de N-1 peças
 
@@ -30,7 +30,7 @@ Partindo dessas conclusões, temos que a expressão do custo C(N) para N peças 
 
 `C(N) = 2*C(N-1) + 1`, 
 
-que é o custo dos passos I e III mais o custo de mover uma peça no passo II.
+que é o custo dos passos 1 e 3 mais o custo de mover uma peça no passo 2.
 
 Expandindo a expressão do custo na forma de uma série, temos o seguinte:
 
