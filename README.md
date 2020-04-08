@@ -1,7 +1,15 @@
 # Solução Ótima da torre de Hanoi
 
+Autor: João Luca Ripardo Teixeira Costa
+
 Esse projeto possui dois algoritmos, um recursivo e outro direto, para resolver 
 o problema das torres de Hanoi.
+
+## Termos utilizados
+
+- Pilha inicial: pilha onde todas as peças se encontram inicialmente
+- Pilha final: pilha para onde eu desejo mover a pilha de peças
+- Pilha auxiliar: pilha que não é inicial nem final
 
 ## Explicação do algoritmo
 
