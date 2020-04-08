@@ -5,7 +5,7 @@ o problema das torres de Hanoi.
 
 ## Explicação do algoritmo
 
-A idéia do algoritmo vem da noção de que, para uma pilha de qualquer tamanho, 3 passos são sempre
+A idéia do algoritmo vem da noção de que, para uma torre com N peças, 3 passos são sempre
 necessários para resolver o problema. Esses passos são:
 
 1. Desempilhar as N-1 primeiras peças da pilha inicial
